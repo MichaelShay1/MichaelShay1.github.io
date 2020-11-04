@@ -1,0 +1,85 @@
+/* Style sheet created by: Michael Shay 11.4.2020 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFFFF;
+}
+/* Style for main element */
+main {
+	display: block;
+	padding: 1em;
+	background-color: #4E9657;
+}
+/* Style for Section element */
+section {
+	background-color: white;
+	color: #4E9657;
+	padding: 1em;
+	margin-top: .5em;
+}
+/* Style for article element */
+article {
+	color: black;
+	border-top: thin;
+	padding: 1em;
+	margin-top: .5em;
+}
+/* Style for aside element */
+aside {
+	border-radius: 2em;
+	background-color: #4E9657;
+	text-align: center;
+	font-size: large;
+	color: white;
+	padding: 2em;
+	margin-top: .5em;
+
+}
+/*style for footer element */
+footer {
+	text-align: center;
+	font-size: .70em;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header element */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #FFFFFF;
+	color: #4E9657;
+	padding: 0.5%;
+	margin-left: 1%;
+	font-size: 3em;
+}
+
+/* Style for the nav element */
+nav {
+	padding: 0.5%;
+}
+
+/* Style for the nav list item elements */
+nav li {
+	display: inline;
+}
+
+/* Style for the nav links element */
+nav li a {
+	color: #4E9657;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration: none;
+}
+/* Style for the table */
+table{
+  width: 100%;
+}
+td, th {
+	border: 1px solid black;
+}
+

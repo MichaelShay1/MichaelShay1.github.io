@@ -1,0 +1,21 @@
+/* table stylesheet */
+table{
+    width: 100%;
+  }
+ td, th {
+      border: 2px solid black;
+  }
+caption {
+    font-size: larger;
+    color: #FF6663;
+}
+body{
+background-image: linear-gradient(90deg, #0B3954 2%, #BFD7EA 100%);
+}
+p{
+    text-align: center;
+}
+p::first-letter{
+   text-decoration: wavy;
+   font-size: xx-large;
+}

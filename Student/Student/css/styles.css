@@ -1,0 +1,59 @@
+
+/*Michael Shay 11.6.2020*/
+
+@font-face {
+	font-family: 'AlexBrush';
+	src: url('../fonts/alex-brush/AlexBrush-Regular.ttf') format('truetype');
+}
+
+	 
+#outerwrapper {	
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.addrightmargin {
+	margin-right: 10%;
+}
+
+html {
+background-image: url("../images/jewelry.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+}
+main {
+	background-image: linear-gradient(#FFFFFF 25%, #F0F9E6 35%);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+img {
+	float: left;
+	border-radius: 50%;
+}
+nav {
+	font-size: 1.5em;
+	float: none;
+}
+ul.navlist {
+	list-style-type: none;
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+}
+h2 {
+	font-family: 'AlexBrush', sans-serif;
+	font-style: italic;
+	font-size: 2em;
+}

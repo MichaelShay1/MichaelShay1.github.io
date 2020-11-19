@@ -1,0 +1,20 @@
+  Organize the files:
+      Add image folder
+      Add css folder
+  Add "under construction" page for Reservations
+  Make the HTML code conform to HTML5 standards
+      Change the div id=contact to use the HTML5 address element
+      Change the telephone number to a hyperlink
+  Add linear gradient for footer
+      https://cssgradient.io/ <--- linear gradient css code generator
+
+  Make the website responsive 
+     HTML: add <meta name="viewport" content="width=device-width, initial-scale-1" />
+     CSS: establish a breakpoint with a min-width of 641px
+     Refer to the screenshots and notice that:
+          mobile: nav should display as block format
+          mobile Home: h2 Enjoy Nature In Luxury not displayed (hint: none)
+	  mobile Home: coast.jpg not displayed
+
+	  tablet Home: h2 Enjoy Nature in Luxury displayed (hint: block)
+          tablet Home: coast.jpg displayed

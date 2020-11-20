@@ -1,0 +1,74 @@
+/*Michael Shay 11.20.2020*/
+body { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(images/lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+	 font-weight: bold;
+}
+nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline;
+}
+
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+}
+main > ul {
+	list-style-image: url("../images/yogabullet.png");
+	margin-left: 3em;
+}
+
+ table, th, td{
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-collapse: collapse;
+}
+footer {
+	padding: .5em;
+}
+address {
+	margin-bottom: .5em;
+}
+@media screen and (max-width: 641px), print {
+nav {
+	display: block;
+}
+header {
+	background: none;
+}
+body {
+	background-image: none;
+}
+img {
+	display: none;
+}
+}
+@media screen and (min-width: 642px), print {
+	nav {
+		display: inline;
+	}
+
+}

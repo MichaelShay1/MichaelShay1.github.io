@@ -194,10 +194,6 @@ body {
   to {left: 94%;}
 }
 /* Gust keyframe transform*/
-@keyframes gust {
-  0%{top: 0px;}
-  57%{top: 20px;}
-}
 
 @keyframes gust {
     0% { top: 190px;}

@@ -1,0 +1,28 @@
+
+main {
+    margin: 0 auto;
+    width: 720px;
+    padding: 0 2em 1em;
+    border: 4px solid #0477BF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1em;
+}
+.tasklist h1 {
+    font-size: 150%;
+    color: #F29F05;
+    margin-bottom: .5em;
+}
+.tasklist div {
+    margin-bottom: 1em;
+}
+.tasklist input {
+    width: 22em;
+    margin-bottom: .5em;
+}
+#tasks {
+    margin-top: 0;
+    float: right;
+    padding-left: 4em;
+    width: 24rem;
+    min-height: 5em;
+}
